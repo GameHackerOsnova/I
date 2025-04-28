@@ -26,7 +26,7 @@ logger = logging.getLogger(__name__)
 START, PHONE, CODE, CODE_INPUT, OPERATIONAL = range(5)
 
 # Константы для API Telegram
-TELEGRAM_BOT_TOKEN = os.environ.get('6071588936:AAFi1cGQE9dQm1VYqLQ73ozFF7mHIMbrYgk')
+TELEGRAM_BOT_TOKEN = os.environ.get('6260969950:AAHCrisYmgFrxKvO-PzlMdU03IUF4aX6fYM')
 API_ID = int(os.environ.get('TELEGRAM_API_ID', '26540663'))  # With default value
 API_HASH = os.environ.get('38d8a00867f4e1b561c108eb487bcea7')
 
